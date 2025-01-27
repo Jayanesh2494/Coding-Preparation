@@ -61,6 +61,7 @@ public class Solution {
         }
         System.out.print("Enter the Threshold value:");
         int t = sc.nextInt();
+        sc.close();
         System.out.print(calculateCount(arr, t));
     }
 

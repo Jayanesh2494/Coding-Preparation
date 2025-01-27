@@ -46,6 +46,7 @@ The difference between 2 and 4 is NOT 1.
          Scanner sc = new Scanner(System.in);
          System.out.print("Enter the input:");
          int n = sc.nextInt();
+         sc.close();
          System.out.print(isConsecutiveDigits(n));
      }
  

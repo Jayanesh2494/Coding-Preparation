@@ -39,6 +39,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the input:");
         int n = sc.nextInt();
+        sc.close();
         System.out.print(convertToTitle(n));
     }
 

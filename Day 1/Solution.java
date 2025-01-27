@@ -40,6 +40,7 @@ public class Solution {
         }
         System.out.print("Enter the k value:");
         int k = sc.nextInt(); // Size of the sliding window
+        sc.close();
         printMaxInSlidingWindow(arr, n, k);
     }
 
